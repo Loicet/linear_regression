@@ -113,32 +113,32 @@ class _PredictionScreenState extends State<PredictionScreen> {
   double? _result;
 
   // Controllers for numeric fields
-  final _age = TextEditingController();
-  final _alcohol = TextEditingController();
-  final _activity = TextEditingController();
-  final _diet = TextEditingController();
-  final _sleep = TextEditingController();
-  final _screen = TextEditingController();
-  final _bmi = TextEditingController();
-  final _waist = TextEditingController();
-  final _systolic = TextEditingController();
-  final _diastolic = TextEditingController();
-  final _heartRate = TextEditingController();
-  final _cholTotal = TextEditingController();
-  final _hdl = TextEditingController();
-  final _ldl = TextEditingController();
-  final _triglycerides = TextEditingController();
-  final _glucosePost = TextEditingController();
-  final _insulin = TextEditingController();
-  final _hba1c = TextEditingController();
+  final _age = TextEditingController(text: '35');
+  final _alcohol = TextEditingController(text: '2');
+  final _activity = TextEditingController(text: '150');
+  final _diet = TextEditingController(text: '5.0');
+  final _sleep = TextEditingController(text: '7');
+  final _screen = TextEditingController(text: '4');
+  final _bmi = TextEditingController(text: '24.5');
+  final _waist = TextEditingController(text: '0.85');
+  final _systolic = TextEditingController(text: '120');
+  final _diastolic = TextEditingController(text: '80');
+  final _heartRate = TextEditingController(text: '72');
+  final _cholTotal = TextEditingController(text: '190');
+  final _hdl = TextEditingController(text: '55');
+  final _ldl = TextEditingController(text: '110');
+  final _triglycerides = TextEditingController(text: '140');
+  final _glucosePost = TextEditingController(text: '120');
+  final _insulin = TextEditingController(text: '10');
+  final _hba1c = TextEditingController(text: '5.5');
 
   // Categorical
-  String? _gender;
-  String? _ethnicity;
-  String? _education;
-  String? _income;
-  String? _employment;
-  String? _smoking;
+  String? _gender = 'Female';
+  String? _ethnicity = 'Asian';
+  String? _education = 'College';
+  String? _income = 'Middle';
+  String? _employment = 'Employed';
+  String? _smoking = 'Never';
 
   // Binary
   int _familyHistory = 0;
