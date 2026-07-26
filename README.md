@@ -7,6 +7,7 @@ An end-to-end machine learning project that predicts fasting blood glucose level
 Chronic diseases such as diabetes and hypertension continue to burden communities in Rwanda and across Africa due to limited awareness, late diagnosis, and inadequate access to preventive care. My mission is to leverage technology to develop accessible, data-driven digital health solutions that improve awareness, prevention, and disease management.
 
 Public API Endpoint (Swagger UI) API URL: https://wecare-api-cjpl.onrender.com
+
 YouTube Demo Video: https://youtu.be/cyKVJYASPJg
 
 ---
