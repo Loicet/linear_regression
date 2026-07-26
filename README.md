@@ -2,6 +2,12 @@
 
 A end-to-end machine learning project that predicts fasting blood glucose levels based on a person's health and lifestyle data. It consists of three parts: a machine learning notebook, a FastAPI backend, and a Flutter mobile app.
 
+## Problem Statement and Mission
+
+Chronic diseases such as diabetes and hypertension continue to burden communities in Rwanda and across Africa due to limited awareness, late diagnosis, and inadequate access to preventive care. My mission is to leverage technology to develop accessible, data-driven digital health solutions that improve awareness, prevention, and disease management.
+
+Public API Endpoint (Swagger UI) API URL: https://wecare-api-cjpl.onrender.com
+
 ---
 
 ## What This Project Does
