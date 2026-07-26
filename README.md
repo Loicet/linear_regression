@@ -119,6 +119,9 @@ POST /predict
 
 Interactive API docs available at: `http://127.0.0.1:8000/docs`
 
+Live deployed API: https://wecare-api-cjpl.onrender.com
+Swagger UI: https://wecare-api-cjpl.onrender.com/docs
+
 ---
 
 ## Part 3 — Flutter Mobile App

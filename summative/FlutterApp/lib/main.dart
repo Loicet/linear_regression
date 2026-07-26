@@ -201,7 +201,7 @@ class _PredictionScreenState extends State<PredictionScreen> {
 
     try {
       final response = await http.post(
-        Uri.parse('http://127.0.0.1:8000/predict'),
+        Uri.parse('https://wecare-api-cjpl.onrender.com/predict'),
         headers: {'Content-Type': 'application/json'},
         body: jsonEncode(body),
       );
