@@ -82,7 +82,8 @@ async def retrain(file: UploadFile = File(...)):
     global model, scaler
 
     contents = await file.read()
-    new_df = pd.read_csv(io.BytesIO(contents))
+    with io.BytesIO(contents) as buffer:
+        new_df = pd.read_csv(buffer)
 
     # Drop leakage columns if present
     new_df = new_df.drop(columns=["diagnosed_diabetes", "diabetes_stage", "diabetes_risk_score"], errors="ignore")
